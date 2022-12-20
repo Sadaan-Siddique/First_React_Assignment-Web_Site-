@@ -4,7 +4,7 @@ import "./nav.css"
 function Nav() {
   return (
     <>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 ps-5">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark p-3 ps-5">
   <Nav_Inner/>
 </nav>
     </>

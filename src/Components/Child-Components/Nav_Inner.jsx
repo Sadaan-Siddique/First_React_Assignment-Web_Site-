@@ -6,12 +6,12 @@ import Nav_Form_Btn from './Nav_Form_Btn'
 function Nav_Inner() {
   return (
     <>
-    <a class="a-navbar navbar-brand text-light fw-bold " href="#">Navbar</a>
+    <a className="a-navbar navbar-brand text-light fw-bold " href="#">Navbar</a>
     <Nav_Togl_Btn/>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <Nav_ul/>
-    <form class="form-inline my-2 my-lg-0 d-flex">
+    <form className="form-inline my-2 my-lg-0 d-flex">
       <Nav_Form_Inpt/>
       <Nav_Form_Btn/>
     </form>

@@ -3,7 +3,7 @@ import Nav_ul_li from './Nav_ul_li'
 function Nav_ul() {
   return (
     <>
-    <ul class="navbar-nav mr-auto ps-5">
+    <ul className="navbar-nav mr-auto ps-5">
       <Nav_ul_li/>
     </ul>
     </>
